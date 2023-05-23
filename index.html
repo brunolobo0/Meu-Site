@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bruno Lobo</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./imgs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/style.css">
@@ -43,12 +47,34 @@
       </div>
     </nav>
   </header>
-  <section>
-    <div class="container h-100">
-      <div class="row">
-        <h1 class="my-5">Conteúdo</h1>
+  <section class="container-fluid">
+    <div class="row my-5 p-5">
+      <div class="col-lg-6">
+        <div id="carouselHome" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imgs/banner1.png" class="img-fluid float-end d-block w-50 carouselBanners" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgs/banner2.png" class="img-fluid float-end d-block w-50 carouselBanners" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgs/banner3.png" class="img-fluid float-end d-block w-50 carouselBanners" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <h1 class="my-5 text-center display-1" style="font-family: 'Megrim', cursive;">FRONT-END DEVELOPER</h1>
       </div>
     </div>
+  </section>
+
+  <div class="container p-5">
+    <h1 class="display-5 text-center p-0 m-0" style="font-family: 'Megrim', cursive;">Bruno Lobo</h1>
+    <p class="small text-center p-0 m-0" style="font-family: 'Megrim', cursive; font-weight: 600;">Front-end developer
+    </p>
+  </div>
   </section>
   <footer class="bg-dark text-white">
     <div class="container py-5">
